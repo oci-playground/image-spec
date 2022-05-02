@@ -1,3 +1,7 @@
+# OCI Playground
+
+[View diff](https://github.com/opencontainers/image-spec/compare/main...oci-playground:main)
+
 # OCI Image Format Specification
 <div>
 <a href="https://travis-ci.org/opencontainers/image-spec">
