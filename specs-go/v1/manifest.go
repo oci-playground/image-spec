@@ -34,5 +34,5 @@ type Manifest struct {
 	Annotations map[string]string `json:"annotations,omitempty"`
 
 	// Refers links a manifest to another existing manifest.
-	Refers Descriptor `json:"refers,omitempty"`
+	Refers *Descriptor `json:"refers,omitempty"`
 }
