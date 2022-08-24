@@ -205,10 +205,10 @@ In the following example, the descriptor indicates the type of artifact it is re
 
 ```json,title=Content%20Descriptor&mediatype=application/vnd.oci.descriptor.v1%2Bjson
 {
-  "mediaType": "application/vnd.icecream.flavor",
+  "mediaType": "application/vnd.oci.artifact.manifest.v1+json",
   "size": 123,
   "digest": "sha256:87923725d74f4bfb94c9e86d64170f7521aad8221a5de834851470ca142da630",
-  "artifactType": "icecream_flavor"
+  "artifactType": "application/vnd.example.sbom.v1"
 }
 ```
 
