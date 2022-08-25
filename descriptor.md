@@ -77,7 +77,7 @@ The _algorithm_ specifies the cryptographic hash function and encoding used for 
 
 A digest string MUST match the following [grammar](considerations.md#ebnf):
 
-```text
+```ebnf
 digest                ::= algorithm ":" encoded
 algorithm             ::= algorithm-component (algorithm-separator algorithm-component)*
 algorithm-component   ::= [a-z0-9]+
